@@ -1,0 +1,66 @@
+:root {
+    --primary-color:black;
+    --secondary-color: #CDCFD1;
+
+}
+
+body {
+    background-color: var(--primary-color);
+    color:var(--secondary-color);
+    font-family: "Spectral"
+}
+
+header {
+    text-align:center;
+}
+
+main {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todolist {
+    width: 400px;
+    border:solid;
+    border-radius:10px;
+    border-color:var(--secondary-color);
+}
+
+.inputfield {
+    text-align:center;
+    }
+
+.todolisttitle {
+    text-align: center;
+}
+
+.listoftodo {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.toggleMenu {
+    border:none;
+    background-color:var(--primary-color);
+    color:var(--secondary-color);
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.todoli {
+    list-style: circle;
+    max-width: 90%;
+    word-wrap: break-word;
+}
+
+.displayMenu {
+  display:none;
+}
+
+.displaybutton {
+    border:none;
+    color:var(--primary-color);
+}
