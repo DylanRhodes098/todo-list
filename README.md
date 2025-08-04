@@ -1,5 +1,5 @@
 # Multi-page Website
-A responsive 4-page website for a fictional gym and fitness center. The site showcases services, membership options, and contact information, designed to attract new members and promote a healthy lifestyle.
+A simple and responsive to-do list app built using HTML, CSS, and JavaScript. This project helps users add, complete, delete, and manage their tasks efficiently in a clean interface — ideal for learning DOM manipulation, event handling, and UI interactivity.
 
 ## Features
 - A ToDo List title
